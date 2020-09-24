@@ -1,0 +1,39 @@
+body {
+    background-color: #cce5ff;
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+
+    
+}
+
+.navbar {
+    width: 100%;
+     position: absolute;
+     top: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    border-radius: 15px;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+  }
+
+  div > h1{
+      margin: 10
+  }
