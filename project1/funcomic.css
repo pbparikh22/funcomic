@@ -1,13 +1,7 @@
 body {
     display: block;
-    margin: 0px;   
-}
-
-.navbar {
-    width: 100%;
-     position: absolute;
-     top: 0;
-     margin: 10px;
+    background-color: #ffffcc;
+  
 }
 
 ul {
@@ -24,57 +18,76 @@ li {
 li a {
     display: block;
     color: white;
-    text-align: center;
     padding: 10px 16px;
     text-decoration: none;
   }
 
-div > h1{
-      margin: 10px;
+  li a:hover {
+    background-color: #00ffff;
+    color: black;
   }
+
 
 .divOne {
     background-color:  #99ccff;
     height: 300px;
-    width: 100%;
+    margin: auto; 
+    width: 1000px;
+    padding: 10px;
+
   }
 
 .divTwo {
     background-color:  #ff0000;
-    height: 300px;
-    width: 100%;
+    margin: auto;
+    height: 400px;
+    width: 1000px;
+    padding: 10px;
   }
+
 
 .divThree {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
     background-color:  #66ff33;
-    height: 300px;
-    width: 100%;
+    margin: auto; 
+    width: 1000px;
+    padding: 10px;
   }
-
-.divThreeBorder{
-    border-style: solid;
-    border-width: medium;
-}
 
 .divFour {
     background-color:  #996600;
     height: 300px;
-    width: 100%;
+    margin: auto; 
+    width: 1000px;
+    padding: 10px;
   }
 
 .divFive {
     background-color:  #0099cc;
     height: 300px;
-    width: 100%;
+    margin: auto; 
+    width: 1000px;
+    padding: 10px;
   }
 
 
-  .divone:hover{
+  .divOne:hover{
     background-color: rgb(28, 138, 189);
+  }
+
+  .divTwo:hover{
+    background-color: #fc7303;
+  }
+
+  .divThree:hover{
+    background-color: #ccff66;
+  }
+
+  .divFour:hover{
+    background-color: #c49a10;
+  }
+
+  .divFive:hover{
+    background-color: #8ccad4;
   }
 
   table, th, td {
@@ -82,3 +95,10 @@ div > h1{
     background-color: white; 
     color: black; 
   }
+
+  p {
+    font-size: 20px;
+  }
+
+
+

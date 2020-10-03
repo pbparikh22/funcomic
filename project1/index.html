@@ -3,6 +3,61 @@
 <head>
     <title>Comic Website</title>
     <link rel="stylesheet" href="funcomic.css">
+    <style>
+
+        .divOne > h1 {
+            font-family: sans-serif;
+            font-size: 50px;
+            text-align: center;
+        }
+
+        .divOne > p{
+            font-family: sans-serif;
+            font-size: 25px;
+            text-align: center;
+            
+        }
+
+        .divTwo {
+            height: 350px;
+        }
+
+        .divTwo > h1{
+            text-align: left;
+            font-size: 50px;
+        }
+
+        .leeDiv {
+            display: block;
+        }
+
+        .leeDiv > p{
+            margin-right: 100px;
+        }
+
+        .divThree {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: center;
+            height: 425px;
+        }
+
+        .geeks img {
+            transition: 0.5s all ease-in-out; 
+        }
+
+        .geeks:hover img { 
+            transform: scale(1.5); 
+        }
+
+        
+
+
+        
+
+
+    </style>
    
 </head>
 
@@ -18,24 +73,36 @@
                 <li><a href="contacts.html">Contacts</a></li>
             </ul> <br>
         
-            <h1>FunComics</h1>
+            
+            <h1>Welcome to FunComics </h1>
+            <p>by: Parth Parikh</p>
 
         </div>
         <div class="divTwo"> 
             <h1>Stan Lee</h1>
+            <div class="leeDiv">
+                <p><a href="lee.html">Learn more about more about Stan and how he became an icon in the comic book
+                    industry.</a>
+                </p>
+                <img src="pictures/lee.jpeg" alt="Stan Lee" width="500px" height="200px">
+            </div>
         </div>
 
         <div class="divThree"> 
-            <div class="divThreeBorder">
-                <h1>Characters</h1>
-            </div>
-            <div class="divThreeBorder">
-                <h1>Characters2</h1>
-            </div>         
+                <div class="geeks">
+                    <img src="pictures/hulk.png" alt="Hulk" width="250px" height="250px">
+                </div>
+                <div class="geeks">
+                    <img src="pictures/hulkBuster.png" alt="Hulk Buster" width="250px" height="250px">
+                </div>
         </div>
 
         <div class="divFour"> 
             <h1>Recent Comics</h1>
+            <p><a href="recentCom.html">Check out the latest comics that have come out. Browse through older coics that are pirceless
+            but still fun to look at.
+            </a>
+            </p>
         </div>
 
         <div class="divFive"> 
