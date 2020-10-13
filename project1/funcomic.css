@@ -34,7 +34,7 @@ li a {
 
 
 .divOne {
-    background-color:  #99ccff;
+    background-color:  #bfbfbf;
     height: 300px;
     margin: auto; 
     width: 1000px;
@@ -76,7 +76,7 @@ li a {
 
 
   .divOne:hover{
-    background-color: rgb(28, 138, 189);
+    background-color: #f2f2f2;
   }
 
   .divTwo:hover{
