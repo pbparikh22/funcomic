@@ -2,16 +2,39 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Comic Website</title>
-    <link rel="stylesheet" href="funcomic.css">
+    <link rel="stylesheet" href="css/funcomic.css">
+    <style> 
+
+        
+
+        .divOne > h1 {
+            font-family: sans-serif;
+            font-size: 50px;
+            text-align: center;
+        }
+
+        .divOne {
+            height: 100%;
+            width: 100%;
+        }
+
+        .container {
+            border-radius: 5px;
+            background-color: #f2f2f2;
+            padding: 20px;
+        }
+
+    </style>
    
 </head>
 
 <body>
-
-    <main >
+    <header>
         <div class ="divOne">
             <ul>
+                <li><a href="report.html">Report</a></li>
                 <li><a href="contacts.html">Contacts</a></li>
                 <li><a href="recentCom.html">Comics</a></li>
                 <li><a href="character.html">Characters</a></li>
@@ -19,28 +42,34 @@
                 <li><a href="index.html">FunComics</a></li>
             </ul> <br>
         
-            <h1>Contacts</h1>
+            <h1>Contact Form</h1>
 
         </div>
-        <div class="divTwo"> 
-            <h1>Stan Lee</h1>
-        </div>
+    </header>
+    <main >
+        
 
-        <div class="divThree"> 
-            <div class="divThreeBorder">
-                <h1>Characters</h1>
-            </div>
-            <div class="divThreeBorder">
-                <h1>Characters2</h1>
-            </div>         
-        </div>
-
-        <div class="divFour"> 
-            <h1>Recent Comics</h1>
-        </div>
-
-        <div class="divFive"> 
-            <h1>Contacts</h1>
+        <div class="container">
+            <form>
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          
+              <label >Favorite Superhero</label>
+              <select id="super" name="superhero">
+                <option value="spiderman">Spiderman</option>
+                <option value="ironman">Ironman</option>
+                <option value="deadpool">Deadpool</option>
+                <option value="other">Other</option>
+              </select>
+          
+              <label for="subject">Subject</label>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+          
+              <input type="submit" value="Submit">
+            </form>
         </div>
 
 

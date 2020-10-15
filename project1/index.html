@@ -2,8 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Comic Website</title>
-    <link rel="stylesheet" href="funcomic.css">
+    <link rel="stylesheet" href="css/funcomic.css">
     <style>
         .divOne > h1 {
             font-family: sans-serif;
@@ -18,8 +19,18 @@
             
         }
 
+        .divOne {
+            height: 250px;
+        }
+
         .divTwo {
-            height: 350px;
+            height: 400px;
+        }
+        .divFour {
+            height: 200px;
+        }
+        .divFive {
+            height: 200px;
         }
 
         .divTwo > h1{
@@ -37,10 +48,26 @@
 
         .divThree {
             display: flex;
-            flex-direction: row;
+            flex-direction: column;
+            justify-items: center;
             justify-content: space-evenly;
             align-items: center;
-            height: 425px;
+            height: 525px;
+        }
+
+        .divThree > h1{
+            text-align: left;
+            font-size: 50px;
+        }
+
+        .divFour > h1{
+            text-align: left;
+            font-size: 50px;
+        }
+
+        .divFive > h1{
+            text-align: left;
+            font-size: 50px;
         }
 
         .geeks img {
@@ -51,62 +78,78 @@
             transform: scale(1.5); 
         }
 
-        
+        .divCharacter {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;          
+        }
 
+        a {
+            text-decoration: none;
+        }
 
-        
-
+        a:hover {
+            background-color: #3385ff;
+            color: black;
+        }
 
     </style>
    
 </head>
 
 <body>
-
-    <main >
+    <header>
         <div class ="divOne">
             <ul>
+                <li><a href="report.html">Report</a></li>
                 <li><a href="contacts.html">Contacts</a></li>
                 <li><a href="recentCom.html">Comics</a></li>
                 <li><a href="character.html">Characters</a></li>
                 <li><a href="lee.html">Stan Lee</a></li>
                 <li><a href="index.html">FunComics</a></li>
             </ul> <br>
-        
-            
             <h1>Welcome to FunComics </h1>
             <p>by: Parth Parikh</p>
-
         </div>
+    </header>
+    <main >       
         <div class="divTwo"> 
-            <h1>Stan Lee</h1>
+            <h1><a href="lee.html">Stan Lee</a></h1>
             <div class="leeDiv">
-                <p><a href="lee.html">Learn more about more about Stans and how he became an icon in the comic book
-                    industry.</a>
+                <p>Learn more about more about Stan Lee and how he became an icon in the comic book
+                    industry.
                 </p>
-                <img src="pictures/lee.jpeg" alt="Stan Lee" width="500" height="200">
+                <img src="images/lee.jpeg" alt="Stan Lee" width="500" height="200">
             </div>
         </div>
 
         <div class="divThree"> 
-                <div class="geeks">
-                    <img src="pictures/hulk.png" alt="Hulk" width="250" height="250">
+
+                <h1><a href="character.html">Characters</a></h1>
+               
+                <div class="divCharacter, geeks">
+                    <img src="images/hulk.png" alt="Hulk" width="225" height="225">
                 </div>
-                <div class="geeks">
-                    <img src="pictures/hulkBuster.png" alt="Hulk Buster" width="250" height="250">
-                </div>
+                <br> <br>
+                <h2>View our assortment of Marvel characters. Explore their origins and see why 
+                they were created.
+                </h2>
+                
         </div>
 
         <div class="divFour"> 
-            <h1>Recent Comics</h1>
-            <p><a href="recentCom.html">Check out the latest comics that have come out. Browse through older coics that are pirceless
+            <h1><a href="reentCom.html">Recent Comics</a></h1>
+            <p>Check out the latest comics that have come out. Browse through older comics that are pirceless
             but still fun to look at.
-            </a>
             </p>
         </div>
 
         <div class="divFive"> 
-            <h1>Contacts</h1>
+            <h1><a href="contacts.html">Contacts</a></h1>
+            <p>
+                Voice your questions and concerns you have in our contacts page. We will try to get back to as soon
+                as possible. 
+            </p>
         </div>
 
 
